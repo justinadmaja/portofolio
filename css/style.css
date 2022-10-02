@@ -369,11 +369,11 @@ margin-bottom:50px;
 }
 .c1{
 	border: var(--neon) 2px solid;
-	background:#811366;
+	background:#9b1a7b;
 }
 .c2{
 	border: var(--neon) 2px solid;
-	background: #79148d;
+	background: #5826b4;
 }
 .c3{
 	border: var(--neon) 2px solid;
@@ -381,7 +381,23 @@ margin-bottom:50px;
 }
 .c4{
 	border: var(--neon) 2px solid;
-	background: #1456ac;
+	background: #052691;
+}
+.c5{
+	border: var(--neon) 2px solid;
+	background: #1864d6;
+}
+.c6{
+	border: var(--neon) 2px solid;
+	background: #9c22cc;
+}
+.c7{
+	border: var(--neon) 2px solid;
+	background: #c2692e;
+}
+.c8{
+	border: var(--neon) 2px solid;
+	background: #a01313;
 }
 .skill-home .icons {
 	padding: 33px 0 0 0;
@@ -1079,12 +1095,13 @@ footer .widget .social-network {
 
 }
 .box-area{
-	border-bottom: var(--neon) 3px solid;
-	border-right: var(--neon) 3px solid;
-	border-left: var(--neon) 3px solid;
+	border-bottom: var(--neon) 2px solid;
+	border-right: var(--neon) 2px solid;
+	border-left: var(--neon) 2px solid;
 	padding: 0 15px 12px;
 	padding-top: 41px;
 	margin-top: -42px;
+	margin-bottom: 40px;
 	text-align: left;
 	background-color: var(--lighter);
 	position: relative;
@@ -1747,9 +1764,6 @@ article img.pull-right, article .align-right{
 		width:156px;
 		margin:0 20px 0 0;
 	}	
-	.box-area{
-		margin-bottom: 40px;
-	}
 	.box-area p{
 		margin: 40px 0 20px 0;
 	}
@@ -1938,6 +1952,7 @@ article img.pull-right, article .align-right{
 
  
 .box-area:before {
+	border-left: var(--neon) 1px solid;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1958,6 +1973,7 @@ article img.pull-right, article .align-right{
     background-size: cover;
 }
 .box-area:after {
+	border-right: var(--neon) 1px solid;
     position: absolute;
     width: 100%;
     height: 100%;
