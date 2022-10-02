@@ -2027,11 +2027,11 @@ article img.pull-right, article .align-right{
 }
 
 .stars {
-  background:#000 url(/img/stars.png) repeat top center;
+  background:#000 url(../img/stars.png) repeat top center;
 }
 
 .twinkling{
-  background:transparent url(/img/twinkling.png) repeat top center;
+  background:transparent url(../img/twinkling.png) repeat top center;
   animation:move-twink-back 200s linear infinite;
 }
 
