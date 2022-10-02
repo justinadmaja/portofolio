@@ -1079,9 +1079,9 @@ footer .widget .social-network {
 
 }
 .box-area{
-	border-bottom: var(--neon) 3px solid;
-	border-right: var(--neon) 3px solid;
-	border-left: var(--neon) 3px solid;
+	border-bottom: var(--neon) 2px solid;
+	border-right: var(--neon) 2px solid;
+	border-left: var(--neon) 2px solid;
 	padding: 0 15px 12px;
 	padding-top: 41px;
 	margin-top: -42px;
