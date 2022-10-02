@@ -1695,21 +1695,47 @@ article img.pull-right, article .align-right{
 	height: 45px;
 	animation-delay: 6s;
 }
+.box-animation li:nth-child(11){
+	position: absolute;
+	display: block;
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	list-style: none;
+
+	left:14%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+	animation-duration: 7s;
+}
+.box-animation li:nth-child(12){
+	position: absolute;
+	display: block;
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	list-style: none;
+
+	left:84%;
+	width: 67px;
+	height: 67px;
+	animation-delay: 7s;
+	animation-duration: 10s;
+}
 @keyframes animate{
 	0%{
 		transform: translateY(0) rotate(0deg);
 		opacity: 0;
 	}
 	25%{
-		transform: translateY(-350x) rotate(120deg);
+		transform: translateY(-550x) rotate(120deg);
 		opacity: 1;
 	}
 	75%{
-		transform: translateY(-700px) rotate(240deg);
+		transform: translateY(-1100px) rotate(240deg);
 		opacity: 1;
 	}
 	100%{
-		transform: translateY(-1050px) rotate(360deg);
+		transform: translateY(-1650px) rotate(360deg);
 		opacity: 0;
 	}
 }
@@ -1724,15 +1750,15 @@ article img.pull-right, article .align-right{
 			opacity: 0;
 		}
 		25%{
-			transform: translateY(-800px) rotate(120deg);
+			transform: translateY(-1250px) rotate(120deg);
 			opacity: 1;
 		}
 		75%{
-			transform: translateY(-1600px) rotate(240deg);
+			transform: translateY(-2500px) rotate(240deg);
 			opacity: 1;
 		}
 		100%{
-			transform: translateY(-2400px) rotate(360deg);
+			transform: translateY(-3750px) rotate(360deg);
 			opacity: 0;
 		}
 	}
@@ -1776,15 +1802,15 @@ article img.pull-right, article .align-right{
 			opacity: 0;
 		}
 		25%{
-			transform: translateY(-1000px) rotate(120deg);
+			transform: translateY(-1450px) rotate(120deg);
 			opacity: 1;
 		}
 		75%{
-			transform: translateY(-2000px) rotate(240deg);
+			transform: translateY(-2900px) rotate(240deg);
 			opacity: 1;
 		}
 		100%{
-			transform: translateY(-3000px) rotate(360deg);
+			transform: translateY(-4350px) rotate(360deg);
 			opacity: 0;
 		}
 	}
@@ -1919,6 +1945,7 @@ article img.pull-right, article .align-right{
 }
 
 @media (max-width: 480px) {
+	
 	.bottom-article a.pull-right {
 
 		float:left;
