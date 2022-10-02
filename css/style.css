@@ -40,6 +40,7 @@ h1,h2, h3, h4, h5, h6 {
 
 #wrapper{
 	width:100%;
+	height: 100%;
 	margin:0;	
 	padding:0;
 	background:#262626
@@ -486,11 +487,10 @@ line-height: 30px;
 font-style: italic;
 } 
 section.callaction {
+	height: 100%;
 	background-color: #262626;
-	padding:50px 0 50px 0;
+
 }
-
-
 
 /* Content
 ==================================== */
@@ -1511,12 +1511,197 @@ article img.pull-right, article .align-right{
 	margin-top:40px;
 }
 
+/*bos animation */
+
+.box-animation-area {
+	position:relative;
+	background:#262626;
+}
+
+
+.box-animation{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.box-animation li:nth-child(1){
+	
+	position: absolute;
+	display: block;
+	background: rgba(0,0,0,.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	list-style: none;
+
+	left:86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+}
+.box-animation li:nth-child(2){
+	position: absolute;
+	display: block;
+	background: rgba(0,0,0,.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	list-style: none;
+
+	left:12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+.box-animation li:nth-child(3){
+	position: absolute;
+	display: block;
+	background: rgba(0,0,0,.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	list-style: none;
+
+	left:70%;
+	width: 25px;
+	height: 25px;
+	animation-delay: 9s;
+}
+.box-animation li:nth-child(4){
+	position: absolute;
+	display: block;
+	background: rgba(0,0,0,.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	list-style: none;
+
+	left:42%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 10s;
+}
+.box-animation li:nth-child(5){
+	position: absolute;
+	display: block;
+	background: rgba(0,0,0,.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	list-style: none;
+
+	left:65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 1s;
+}
+.box-animation li:nth-child(6){
+	position: absolute;
+	display: block;
+	background: rgba(0,0,0,.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	list-style: none;
+
+	left:15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 5s;
+}
+.box-animation li:nth-child(7){
+	position: absolute;
+	display: block;
+	background: rgba(0,0,0,.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	list-style: none;
+
+	left:84%;
+	width: 70px;
+	height: 70px;
+	animation-delay: 2s;
+	animation-duration: 10s;
+}
+.box-animation li:nth-child(8){
+	position: absolute;
+	display: block;
+	background: rgba(0,0,0,.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	list-style: none;
+
+	left:35%;
+	width: 50px;
+	height: 50px;
+	animation-delay: 8s;
+}
+.box-animation li:nth-child(9){
+	position: absolute;
+	display: block;
+	background: rgba(0,0,0,.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	list-style: none;
+
+	left:75%;
+	width: 120px;
+	height: 120px;
+	animation-delay: 2s;
+}
+.box-animation li:nth-child(10){
+	position: absolute;
+	display: block;
+	background: rgba(0,0,0,.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+	list-style: none;
+
+	left:25%;
+	width: 45px;
+	height: 45px;
+	animation-delay: 6s;
+}
+@keyframes animate{
+	0%{
+		transform: translateY(0) rotate(0deg);
+		opacity: 0;
+	}
+	25%{
+		transform: translateY(-350x) rotate(120deg);
+		opacity: 1;
+	}
+	75%{
+		transform: translateY(-700px) rotate(240deg);
+		opacity: 1;
+	}
+	100%{
+		transform: translateY(-1050px) rotate(360deg);
+		opacity: 0;
+	}
+}
 
 /*  Media queries 
 ============================= */
 
 @media (min-width: 768px) and (max-width: 979px) {
-
+	@keyframes animate{
+		0%{
+			transform: translateY(0) rotate(0deg);
+			opacity: 0;
+		}
+		25%{
+			transform: translateY(-800px) rotate(120deg);
+			opacity: 1;
+		}
+		75%{
+			transform: translateY(-1600px) rotate(240deg);
+			opacity: 1;
+		}
+		100%{
+			transform: translateY(-2400px) rotate(360deg);
+			opacity: 0;
+		}
+	}
 	a.detail{
 		background:none;
 		width:100%;
@@ -1554,7 +1739,24 @@ article img.pull-right, article .align-right{
 }
 
 @media (max-width: 767px) {
-
+	@keyframes animate{
+		0%{
+			transform: translateY(0) rotate(0deg);
+			opacity: 0;
+		}
+		25%{
+			transform: translateY(-1000px) rotate(120deg);
+			opacity: 1;
+		}
+		75%{
+			transform: translateY(-2000px) rotate(240deg);
+			opacity: 1;
+		}
+		100%{
+			transform: translateY(-3000px) rotate(360deg);
+			opacity: 0;
+		}
+	}
 	
   body {
     padding-right: 0;
@@ -1781,5 +1983,4 @@ padding:50px 0
     font-size: 18px;
 }
 
-/*bos animation */
 
