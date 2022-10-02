@@ -343,7 +343,7 @@ right:0px;
 	margin: 0 auto;
 	padding: 1px;
 	position: absolute;
-	vertical-align: bottom;
+	/*vertical-align: bottom;*/
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.26);
 	bottom: 5%;
@@ -737,9 +737,6 @@ form#commentform textarea {
 	display: block;	
 }
 
-.work-nav #filters li a:hover {
-
-}
 
 .work-nav #filters li a.selected {
 	color: #DE5E60;
@@ -1231,9 +1228,7 @@ background: #F9F9F9;
 	display:block;
 	color:#fff;
 }
-.pricing-box-item.activeItem .pricing-heading h3 {
-	 
-}
+
 
 .pricing-box-item .pricing-heading h3 strong {
 	font-size: 20px;
@@ -1477,7 +1472,7 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
- ============================= */
+
 
 .clear-marginbot{
 	margin-bottom:0;
@@ -1527,8 +1522,6 @@ article img.pull-right, article .align-right{
 		width:100%;
 	}
 
-
-	
 	footer .widget form  input#appendedInputButton {
 		  display: block;
 		  width: 91%;
@@ -1552,13 +1545,17 @@ article img.pull-right, article .align-right{
 		width:156px;
 		margin:0 20px 0 0;
 	}	
+	.box-area{
+		margin-bottom: 40px;
+	}
 	.box-area p{
-		margin: 40px 0 0 0;
+		margin: 40px 0 20px 0;
 	}
 }
 
 @media (max-width: 767px) {
 
+	
   body {
     padding-right: 0;
     padding-left: 0;
@@ -1568,7 +1565,7 @@ article img.pull-right, article .align-right{
 		border-bottom: none;
 	}
 	.navbar-header {
-		margin-top: 20px;
+		margin-top: -10px;
 		border-bottom: none;
 	}
 	
@@ -1677,7 +1674,7 @@ article img.pull-right, article .align-right{
 	}
 	
 	.box-area p{
-		margin: 40px 0 0 0;
+		margin: 40px 0 20px 0;
 	}
 	.col-md-3{
 		margin: 50px 0;
@@ -1783,3 +1780,6 @@ padding:50px 0
     padding: 22px 0 14px;
     font-size: 18px;
 }
+
+/*bos animation */
+
