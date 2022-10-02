@@ -472,19 +472,20 @@ border-radius:0;
 /* Testimonial
 ----------------------------------*/
 .testimonial-area {
-padding: 0 0 0 0;
-margin:0;
-background: url(../img/low-poly01.jpg) fixed center center;
-background-size: cover;
--webkit-background-size: cover;
--moz-background-size: cover;
--ms-background-size: cover;
-color: red;}
-.testimonial-solid p {
-color: #bbbbbb;
-font-size: 16px;
-line-height: 30px;
-font-style: italic;
+	border-bottom: 2px solid #413bff;
+	padding: 0 0 0 0;
+	margin:0;
+	background: url(../img/low-poly01.jpg) fixed center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	color: red;}
+	.testimonial-solid p {
+	color: #bbbbbb;
+	font-size: 16px;
+	line-height: 30px;
+	font-style: italic;
 } 
 section.callaction {
 	height: 100%;
@@ -498,7 +499,7 @@ section.callaction {
 #content {
 	left:2.5%;
 	width: 95%;
-	border-top: 2px solid #413bff;
+	border-top: 2px solid #474747;
 
 	position:relative;
 	background:#262626;
@@ -1514,7 +1515,7 @@ article img.pull-right, article .align-right{
 	margin-top:40px;
 }
 
-/*bos animation */
+/*box animation */
 
 .box-animation-area {
 	position:relative;
@@ -1972,7 +1973,8 @@ article img.pull-right, article .align-right{
     position: relative;
 }
 .courses{
-padding:50px 0
+
+	padding:50px 0
 }
 .carousel-indicators li {
     display: inline-block; 
@@ -1995,3 +1997,32 @@ padding:50px 0
 	
 	font-style:oblique;
 }
+
+/* TWINKLING NIGHT */
+
+.stars-animation-area {
+	position:relative;
+	background:#262626;
+}
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+.stars, .twinkling {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.stars {
+  background:#000 url(/img/stars.png) repeat top center;
+}
+
+.twinkling{
+  background:transparent url(/img/twinkling.png) repeat top center;
+  animation:move-twink-back 200s linear infinite;
+}
+
