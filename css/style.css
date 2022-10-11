@@ -27,6 +27,7 @@ body {
 	font-weight:300;
 	line-height:1.6em;
 	color: var(--text);
+	
 }
 
 a:active {
@@ -2083,6 +2084,14 @@ article img.pull-right, article .align-right{
 	border-radius: 15px;
 }
 
+#earth{
+	display: grid;
+
+	place-items: center;
+	overflow:hidden;
+	margin-top: -5%;
+	margin-bottom: -7.5%;
+}
 #divfix {
 	bottom: -8%;
 	left: -4%;
