@@ -2084,8 +2084,8 @@ article img.pull-right, article .align-right{
 }
 
 #divfix {
-	bottom: -10%;
-	right: 0;
+	bottom: -8%;
+	right: -4%;
 	position: fixed;
 	z-index: 3000;
 }
