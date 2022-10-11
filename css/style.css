@@ -2082,3 +2082,10 @@ article img.pull-right, article .align-right{
 	border: var(--white) 1px solid;
 	border-radius: 15px;
 }
+
+#divfix {
+	bottom: -10%;
+	right: 0;
+	position: fixed;
+	z-index: 3000;
+}
